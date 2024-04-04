@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/black/black-trianglify-b6181ec2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cerceve {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.cerceve h2 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.cerceve p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header {
+    background-color: #ddd;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+}
+
+.pp {
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin-right: 10px;
+}
+
+.iletisim a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+.iletisim img {
+    width: 50px;
+    height: 50px;
+    margin-left: 75px;
+}
+
+
+main {
+    padding: 20px 0;
+}
+
+.prg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.icerik {
+    flex: 1 1 calc(50% - 10px);
+}
+
+.genel {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.basarim {
+    background-color: #c0ffc0;
+}
+
+.hedef {
+    background-color: #ffd700;
+}
+
+.gri {
+    background-color: #999;
+}
+
+.kirmizi {
+    background-color: #b62f2f;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
